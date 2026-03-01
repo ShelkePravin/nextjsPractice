@@ -5,7 +5,7 @@ import axios from "axios";
 import { redirect } from "next/navigation";
 import { deleteSession, setSession } from "../_lib/session";
 
-const API_URL = "http://localhost:3002";
+const API_URL = "http://localhost:3001";
 
 export const loginAction = async (formData: FormData) => {
     // console.log(formData);
